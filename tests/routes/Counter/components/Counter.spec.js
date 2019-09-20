@@ -19,7 +19,7 @@ describe('(Component) Counter', () => {
   })
 
   it('renders as a <div>.', () => {
-    expect(_wrapper.is('div')).to.equal(true)
+    expect(_wrapper.is('div')).not.to.equal(true)
   })
 
   it('renders with an <h2> that includes Counter label.', () => {
